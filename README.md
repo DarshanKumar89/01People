@@ -94,6 +94,16 @@ npm run build
 
 **Axios** - [Axios Usage](https://www.npmjs.com/package/axios)
 
+### WorkFlow
+
+(https://github.com/DarshanKumar89/01People/blob/master/workflow.gif)
+
+https://github.com/DarshanKumar89/01People/blob/master/workflow.gif
+
+#### API related tested in Postman but did a workaround
+
+https://github.com/DarshanKumar89/01People/blob/master/taask-01-API%20issues.gif
+
 #### The MIT License (MIT), Apache License
 
 MIT © 2017 Darshan Kumar
