@@ -84,7 +84,7 @@ npm run build
    └─ store.js                # Creates and exports store.
 ```
 
-####Libraries used
+#### Libraries used
 
 **React** - [Quick Start](https://reactjs.org/docs/hello-world.html)
 
