@@ -96,4 +96,4 @@ npm run build
 
 #### The MIT License (MIT), Apache License
 
-MIT © 2017 Darshan Kumat
+MIT © 2017 Darshan Kumar
