@@ -6,9 +6,7 @@
 
 A simple and quick way to get you going with developing React applications with Redux and Sass.
 
-Comes with pre-configured Webpack for bundling your application to help save time in setting up your project. Keeps CSS out of JavaScript to maintain separation of concerns. Redux takes care of State Management. If you are looking for _CSS-in-JS_ approach, this starter pack is not for you.
-
-**Demo:**
+**Code:**
 
 For a complex example with Async actions, take a look at: [react-redux](https://github.com/DarshanKumar89/01People)
 
@@ -64,11 +62,10 @@ npm run build
    ├─ actions/                # Create actions here.
    |  ├─ counterActions.js
    ├─ components/             # Create components here
-   |  ├─ Controls.js
-   |  ├─ PopulationCntainer.js
+   |  ├─ ViewPost.js
+   |  ├─ AddPost.js
    |─ containers/             # Containers bridge Components with the State.
-   |  ├─ Controls.js
-   |  ├─ Counter.js
+   |  ├─ PostContainer.js
    ├─ constants/              # Define action types here.
    |  ├─ ActionTypes.js
    ├─ reducers/               # Create reducers here.
@@ -81,9 +78,7 @@ npm run build
    └─ store.js                # Creates and exports store.
 ```
 
-### Learn
-
-This starter kit assumes, you are familiar with JavaScript (ES6). If you are new to this stack, here are some resources to help you get started with:
+### Things Used
 
 **React** - [Quick Start](https://reactjs.org/docs/hello-world.html) | [Start Learning React](https://egghead.io/courses/start-learning-react) | [React in 8-minutes](https://medium.com/learning-new-stuff/learn-react-js-in-7-min-92a1ef023003)
 

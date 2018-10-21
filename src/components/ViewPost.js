@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 class ViewPosts extends Component {
   render() {
     const { dataSource, deletePostCallback } = this.props;
-    console.log("wwkdn", dataSource);
+
     return (
       <div>
         <h4 class="mt-5">Last posts</h4>
@@ -32,19 +32,6 @@ class ViewPosts extends Component {
                 </td>
               </tr>
             ))}
-            {/* <tr>
-              <td>#{dataSource.id}</td>
-              <td> {dataSource.title}</td>
-              <td>{dataSource.body}</td>
-              <td>
-                <button
-                  class="btn btn-danger btn-sm"
-                  onClick={deletePostCallback.bind(null, dataSource.id)}
-                >
-                  Delete
-                </button>
-              </td>
-            </tr> */}
           </tbody>
         </table>
       </div>

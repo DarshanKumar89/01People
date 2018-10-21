@@ -80,15 +80,22 @@ export class PostContainer extends Component {
       .then(response => {
         console.log("response-delete", response.data);
         //updating state after deleting and response give null from api for now
-        this.setState({
-          dataSource: response.data
-        });
+        // this.setState({
+        //   dataSource: response.data
+        // });
 
-        //just getting updated post since the data is not being updated from API
-        // this.getPosts();
+        //workAround by deleting by mapping ID in array of data from GetPost API
+        if (id) {
+          let newArray = this.state.dataSource.splice(id);
+          this.setState({
+            dataSource: newArray
+          });
+        }
       })
       .catch(error => {
         console.log(error);
+        //just getting updated post since the data is not being updated from API
+        this.getPosts();
       });
   };
 
@@ -112,12 +119,6 @@ export const mapDispatchToProps = dispatch => {
   return {
     increment: () => {
       dispatch(incrementNum());
-    },
-    decrement: () => {
-      dispatch(decrementNum());
-    },
-    resetCount: payload => {
-      dispatch(resetCounter(payload));
     }
   };
 };
