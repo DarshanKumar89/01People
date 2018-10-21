@@ -3,6 +3,8 @@ import { connect } from "react-redux";
 import axios from "axios";
 import _ from "lodash";
 
+import { getPosts } from "../actions/postActions";
+
 import AddPosts from "../components/AddPost";
 import ViewPosts from "../components/ViewPost";
 
