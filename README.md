@@ -6,6 +6,12 @@
 
 A simple and quick way to get you going with developing React applications with Redux and Sass.
 
+**WorkFlow**
+
+(https://github.com/DarshanKumar89/01People/blob/master/workflow.gif)
+
+![Alt Text](https://github.com/DarshanKumar89/01People/blob/master/workflow.gif)
+
 **Code:**
 
 For a complex example with Async actions, take a look at: [react-redux](https://github.com/DarshanKumar89/01People)
@@ -93,12 +99,6 @@ npm run build
 **Sass** - [Sass Guide](http://sass-lang.com/guide)
 
 **Axios** - [Axios Usage](https://www.npmjs.com/package/axios)
-
-### WorkFlow
-
-(https://github.com/DarshanKumar89/01People/blob/master/workflow.gif)
-
-![Alt Text](https://github.com/DarshanKumar89/01People/blob/master/workflow.gif)
 
 #### API related tested in Postman but did a workaround
 
