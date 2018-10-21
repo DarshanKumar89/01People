@@ -12,9 +12,15 @@ For a complex example with Async actions, take a look at: [react-redux](https://
 
 ### Components 🔩 Styles 🎨 Action! 🎬
 
-With all necessary tools in place, all you need to do is start creating React Components, style them and optionally use Redux for the State management. It is recommended that you use Redux if the applications you are building require interactions between multiple components or that requires pulling data from external source.
-
 All the required code (JS + Sass) goes inside the `src` folder. Webpack will compile, bundle and output in the `public` folder, which you can upload/deploy to the root directory of your web server to publish your app!
+
+**API ISSUes:**
+
+```
+1. The API Given [ https://jsonplaceholder.typicode.com/] Used to Add post- does add post but the server endpoint doent Update
+
+2. So i just made a work around so it looks like faking but it fakes by removing the post
+```
 
 ### Get started!
 
@@ -78,13 +84,15 @@ npm run build
    └─ store.js                # Creates and exports store.
 ```
 
-### Things Used
+####Libraries used
 
-**React** - [Quick Start](https://reactjs.org/docs/hello-world.html) \
+**React** - [Quick Start](https://reactjs.org/docs/hello-world.html)
 
 **Redux** - [Basics](https://redux.js.org/docs/basics/)
 
 **Sass** - [Sass Guide](http://sass-lang.com/guide)
+
+**Axios** - [Axios Usage](https://www.npmjs.com/package/axios)
 
 #### The MIT License (MIT), Apache License
 
