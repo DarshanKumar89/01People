@@ -20,14 +20,6 @@ For a complex example with Async actions, take a look at: [react-redux](https://
 
 All the required code (JS + Sass) goes inside the `src` folder. Webpack will compile, bundle and output in the `public` folder, which you can upload/deploy to the root directory of your web server to publish your app!
 
-**API ISSUes:**
-
-```
-1. The API Given [ https://jsonplaceholder.typicode.com/] Used to Add post- does add post but the server endpoint doent Update
-
-2. So i just made a work around so it looks like faking but it fakes by removing the post
-```
-
 ### Get started!
 
 ```
@@ -99,6 +91,16 @@ npm run build
 **Sass** - [Sass Guide](http://sass-lang.com/guide)
 
 **Axios** - [Axios Usage](https://www.npmjs.com/package/axios)
+
+#### API issues
+
+**API ISSUes:**
+
+```
+1. The API Given [ https://jsonplaceholder.typicode.com/] Used to Add post- does add post but the server endpoint doent Update
+
+2. So i just made a work around so it looks like faking but it fakes by removing the post
+```
 
 #### API related tested in Postman but did a workaround
 
