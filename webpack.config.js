@@ -17,7 +17,7 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loaders: "eslint-loader",
+        loaders: "eslint-loader"
       },
       {
         test: /\.js$/,

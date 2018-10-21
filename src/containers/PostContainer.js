@@ -20,7 +20,8 @@ export class PostContainer extends Component {
       dataSource: [],
       id: "",
       title: "",
-      body: ""
+      body: "",
+      post: ""
     };
   }
 
@@ -73,7 +74,7 @@ export class PostContainer extends Component {
     alert("The Post is Sumbitted Successfully");
   };
 
-  deletePostCallback = (id: String) => {
+  deletePostCallback = id => {
     console.log("dele", id);
     axios
       .delete(base_url + `/posts/` + id)
@@ -117,13 +118,19 @@ export class PostContainer extends Component {
 
 export const mapDispatchToProps = dispatch => {
   return {
-    increment: () => {
-      dispatch(incrementNum());
+    dispatchPost: () => {
+      dispatch(getPosts());
     }
   };
 };
 
+export const mapStateToProps = store => {
+  return {
+    post: store.post
+  };
+};
+
 export default connect(
-  null,
+  mapStateToProps,
   mapDispatchToProps
 )(PostContainer);

@@ -5,7 +5,7 @@ class AddPosts extends Component<Props> {
   props: Props;
 
   render() {
-    const { title, body, addPost, handleChange } = this.props;
+    const { addPost, handleChange } = this.props;
 
     return (
       <div>
@@ -20,6 +20,7 @@ class AddPosts extends Component<Props> {
                 name="title"
                 class="form-control"
                 onChange={event => handleChange(event)}
+                required
               />
             </div>
             <div class="form-group">
@@ -28,6 +29,7 @@ class AddPosts extends Component<Props> {
                 class="form-control"
                 name="body"
                 onChange={event => handleChange(event)}
+                required
               />
             </div>
             <div class="text-right">
