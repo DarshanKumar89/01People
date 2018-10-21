@@ -9,10 +9,6 @@ import ViewPosts from "../components/ViewPost";
 let base_url = "https://jsonplaceholder.typicode.com";
 
 export class PostContainer extends Component {
-  static propTypes = {
-    form: PropTypes
-  };
-
   constructor(props, context) {
     super(props, context);
 

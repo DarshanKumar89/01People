@@ -8,7 +8,7 @@
 
 import { GET_POST } from "../constants/ActionTypes";
 
-export default function reducer(state = 0, action) {
+export default function reducer(state = "", action) {
   switch (action.type) {
     case GET_POST:
       return (state = action.payload);

@@ -66,7 +66,7 @@ npm run build
 |  ├─ index.html              # Contains root element to mount your app.
 └─ src/
    ├─ actions/                # Create actions here.
-   |  ├─ counterActions.js
+   |  ├─ postActions.js
    ├─ components/             # Create components here
    |  ├─ ViewPost.js
    |  ├─ AddPost.js
@@ -75,7 +75,7 @@ npm run build
    ├─ constants/              # Define action types here.
    |  ├─ ActionTypes.js
    ├─ reducers/               # Create reducers here.
-   |  ├─ counter.js
+   |  ├─ post.js
    |  ├─ index.js             # Combine your reducers here.
    ├─ styles/                 # All styling goes here.
    |  ├─ main.scss
